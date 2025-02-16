@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dead By Daylight Rules</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/output.css" />
+    
+    <!-- Custom Styles -->
+    <style>
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        body::-webkit-scrollbar {
+            display: none;
+        }
+        
+        /* Hide scrollbar for IE, Edge and Firefox */
+        body {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+
+        /* Ensure consistent width */
+        html {
+            overflow-y: scroll;
+            margin-left: calc(100vw - 100%);
+        }
+    </style>
+</head>
+<body class="bg-neutral-950 text-neutral-100 antialiased">
+    <div class="container mx-auto px-4 py-8 max-w-5xl">
+      <!-- Header -->
+      <header class="flex justify-between items-center mb-12 pb-4 border-b border-neutral-800">
+        <h1 class="text-3xl font-extrabold tracking-tight text-neutral-100 flex items-center gap-3">
+          <span class="material-icons text-red-600 text-4xl">menu_book</span>
+          DBD Rules Compendium
+        </h1>
+        
+        <div class="flex items-center gap-6">
+          <!-- Killer Icon -->
+          <img src="assets/images/killer-icon.svg" class="w-8 h-8 ruleset-icon killer-icon" alt="Killer">
+          
+          <label class="relative inline-flex items-center cursor-pointer">
+            <input type="checkbox" id="ruleset-toggle" class="sr-only peer focus:outline-none focus:ring-0">
+            <div class="w-16 h-8 bg-red-600 peer-checked:bg-blue-600 border-transparent rounded-full peer peer-checked:after:translate-x-[32px] rtl:peer-checked:after:-translate-x-[32px] peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-neutral-300 after:border after:rounded-full after:h-7 after:w-7 after:transition-all"></div>
+          </label>
+
+          <!-- Survivor Icon -->
+          <img src="assets/images/survivor-icon.svg" class="w-8 h-8 ruleset-icon survivor-icon" alt="Survivor">
+        </div>
+      </header>
+
+      <!-- Tabs -->
+      <div class="flex flex-wrap justify-center gap-2 mb-6 sm:flex-nowrap">
+        <button data-tab="general" 
+                class="tab-button w-[calc(50%-0.25rem)] sm:w-auto px-4 py-2 rounded-lg font-semibold uppercase tracking-wide transition-colors duration-200 bg-neutral-800 text-neutral-200 select-none cursor-pointer sm:flex-grow">
+          General
+        </button>
+        <button data-tab="tier1" 
+                class="tab-button w-[calc(50%-0.25rem)] sm:w-auto px-4 py-2 rounded-lg font-semibold uppercase tracking-wide transition-colors duration-200 bg-neutral-800 text-neutral-200 select-none cursor-pointer sm:flex-grow">
+          Tier 1
+        </button>
+        <button data-tab="tier2" 
+                class="tab-button w-[calc(50%-0.25rem)] sm:w-auto px-4 py-2 rounded-lg font-semibold uppercase tracking-wide transition-colors duration-200 bg-neutral-800 text-neutral-200 select-none cursor-pointer sm:flex-grow">
+          Tier 2
+        </button>
+        <button data-tab="tier3" 
+                class="tab-button w-[calc(50%-0.25rem)] sm:w-auto px-4 py-2 rounded-lg font-semibold uppercase tracking-wide transition-colors duration-200 bg-neutral-800 text-neutral-200 select-none cursor-pointer sm:flex-grow">
+          Tier 3
+        </button>
+        <button data-tab="tier4" 
+                class="tab-button w-[calc(50%-0.25rem)] sm:w-auto px-4 py-2 rounded-lg font-semibold uppercase tracking-wide transition-colors duration-200 bg-neutral-800 text-neutral-200 select-none cursor-pointer sm:flex-grow">
+          Tier 4
+        </button>
+        <button data-tab="tier5" 
+                class="tab-button w-[calc(50%-0.25rem)] sm:w-auto px-4 py-2 rounded-lg font-semibold uppercase tracking-wide transition-colors duration-200 bg-neutral-800 text-neutral-200 select-none cursor-pointer sm:flex-grow">
+          Tier 5
+        </button>
+      </div>
+
+      <!-- Rules Container -->
+      <div class="bg-neutral-900 p-8 rounded-lg border border-neutral-800 shadow-lg">
+        <!-- 
+        ===================================================
+        KILLER RULESET SECTIONS
+        These sections contain rules and content specific to Killer gameplay
+        ===================================================
+        -->
+
+        <!-- General Tab Content for Killer -->
+        <section data-tab-content="general" data-ruleset="killer" class="mb-8">
+          <!-- Banned Addons -->
+          <div class="mb-12">
+            <h3 class="text-2xl font-bold text-neutral-100 mb-6 border-b border-neutral-800 pb-3">
+              Banned Addons
+            </h3>
+            <div class="addon-container flex flex-wrap gap-4 justify-center max-w-4xl mx-auto" data-addon-entries>
+              <!-- Killer Banned Addons will be generated here -->
+            </div>
+          </div>
+
+          <!-- Banned Perks -->
+          <div class="mb-12">
+            <h3 class="text-2xl font-bold text-neutral-100 mb-6 border-b border-neutral-800 pb-3">
+              Banned Perks
+            </h3>
+            <div class="perk-container grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-9 gap-x-2 gap-y-4 justify-center max-w-5xl mx-auto" data-perk-entries>
+              <!-- Killer Banned Perks will be generated here -->
+            </div>
+          </div>
+
+          <!-- Banned Combos -->
+          <div class="mb-12">
+            <h3 class="text-2xl font-bold text-neutral-100 mb-6 border-b border-neutral-800 pb-3">
+              Banned Combos
+            </h3>
+            <div class="combo-container flex flex-wrap gap-4 justify-center max-w-4xl mx-auto" data-combos>
+              <!-- Killer Combos will be generated here -->
+            </div>
+          </div>
+        </section>
+
+        <!-- Tier 1 Content for Killer -->
+        <section data-tab-content="tier1" data-ruleset="killer" class="mb-8 hidden">
+          <h3 class="text-2xl font-bold text-neutral-100 mb-6 border-b border-neutral-800 pb-3">Killer Tier 1 Rules</h3>
+          <div class="killers-container flex flex-wrap justify-center items-center gap-2 mb-6 w-full">
+            <!-- Killer Tier 1 icons will be generated here -->
+          </div>
+        </section>
+
+        <!-- Tier 2 Content for Killer -->
+        <section data-tab-content="tier2" data-ruleset="killer" class="mb-8 hidden">
+          <h3 class="text-2xl font-bold text-neutral-100 mb-6 border-b border-neutral-800 pb-3">Killer Tier 2 Rules</h3>
+          <div class="killers-container flex flex-wrap justify-center items-center gap-2 mb-6 w-full">
+            <!-- Killer Tier 2 icons will be generated here -->
+          </div>
+        </section>
+
+        <!-- Tier 3 Content for Killer -->
+        <section data-tab-content="tier3" data-ruleset="killer" class="mb-8 hidden">
+          <h3 class="text-2xl font-bold text-neutral-100 mb-6 border-b border-neutral-800 pb-3">Killer Tier 3 Rules</h3>
+          <div class="killers-container flex flex-wrap justify-center items-center gap-2 mb-6 w-full">
+            <!-- Killer Tier 3 icons will be generated here -->
+          </div>
+        </section>
+
+        <!-- Tier 4 Content for Killer -->
+        <section data-tab-content="tier4" data-ruleset="killer" class="mb-8 hidden">
+          <h3 class="text-2xl font-bold text-neutral-100 mb-6 border-b border-neutral-800 pb-3">Killer Tier 4 Rules</h3>
+          <div class="killers-container flex flex-wrap justify-center items-center gap-2 mb-6 w-full">
+            <!-- Killer Tier 4 icons will be generated here -->
+          </div>
+        </section>
+
+        <!-- Tier 5 Content for Killer -->
+        <section data-tab-content="tier5" data-ruleset="killer" class="mb-8 hidden">
+          <h3 class="text-2xl font-bold text-neutral-100 mb-6 border-b border-neutral-800 pb-3">Killer Tier 5 Rules</h3>
+          <div class="killers-container flex flex-wrap justify-center items-center gap-2 mb-6 w-full">
+            <!-- Killer Tier 5 icons will be generated here -->
+          </div>
+        </section>
+
+        <!-- 
+        ===================================================
+        SURVIVOR RULESET SECTIONS
+        These sections contain rules and content specific to Survivor gameplay
+        ===================================================
+        -->
+
+        <!-- General Tab Content for Survivor -->
+        <section data-tab-content="general" data-ruleset="survivor" class="mb-8 hidden">
+          <!-- Banned Perks -->
+          <div class="mb-12">
+            <h3 class="text-2xl font-bold text-neutral-100 mb-6 border-b border-neutral-800 pb-3">
+              Banned Perks
+            </h3>
+            <div class="perk-container grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-7 gap-x-2 gap-y-4 justify-center max-w-5xl mx-auto" data-perk-entries>
+              <!-- Survivor Banned Perks will be generated here -->
+            </div>
+          </div>
+
+          <!-- Banned Combos -->
+          <div class="mb-12">
+            <h3 class="text-2xl font-bold text-neutral-100 mb-6 border-b border-neutral-800 pb-3">
+              Banned Combos
+            </h3>
+            <div class="combo-container flex flex-wrap gap-4 justify-center max-w-4xl mx-auto" data-survivor-combos>
+              <!-- Survivor Combos will be generated here -->
+            </div>
+          </div>
+        </section>
+
+        <!-- Tier 1 Content for Survivor -->
+        <section data-tab-content="tier1" data-ruleset="survivor" class="mb-8 hidden">
+          <h3 class="text-2xl font-bold text-neutral-100 mb-6 border-b border-neutral-800 pb-3">Survivor Tier 1 Rules</h3>
+          <div class="killers-container flex flex-wrap justify-center items-center gap-2 mb-6 w-full">
+            <!-- Survivor Tier 1 icons will be generated here -->
+          </div>
+        </section>
+
+        <!-- Tier 2 Content for Survivor -->
+        <section data-tab-content="tier2" data-ruleset="survivor" class="mb-8 hidden">
+          <h3 class="text-2xl font-bold text-neutral-100 mb-6 border-b border-neutral-800 pb-3">Survivor Tier 2 Rules</h3>
+          <div class="killers-container flex flex-wrap justify-center items-center gap-2 mb-6 w-full">
+            <!-- Survivor Tier 2 icons will be generated here -->
+          </div>
+        </section>
+
+        <!-- Tier 3 Content for Survivor -->
+        <section data-tab-content="tier3" data-ruleset="survivor" class="mb-8 hidden">
+          <h3 class="text-2xl font-bold text-neutral-100 mb-6 border-b border-neutral-800 pb-3">Survivor Tier 3 Rules</h3>
+          <div class="killers-container flex flex-wrap justify-center items-center gap-2 mb-6 w-full">
+            <!-- Survivor Tier 3 icons will be generated here -->
+          </div>
+        </section>
+
+        <!-- Tier 4 Content for Survivor -->
+        <section data-tab-content="tier4" data-ruleset="survivor" class="mb-8 hidden">
+          <h3 class="text-2xl font-bold text-neutral-100 mb-6 border-b border-neutral-800 pb-3">Survivor Tier 4 Rules</h3>
+          <div class="killers-container flex flex-wrap justify-center items-center gap-2 mb-6 w-full">
+            <!-- Survivor Tier 4 icons will be generated here -->
+          </div>
+        </section>
+
+        <!-- Tier 5 Content for Survivor -->
+        <section data-tab-content="tier5" data-ruleset="survivor" class="mb-8 hidden">
+          <h3 class="text-2xl font-bold text-neutral-100 mb-6 border-b border-neutral-800 pb-3">Survivor Tier 5 Rules</h3>
+          <div class="killers-container flex flex-wrap justify-center items-center gap-2 mb-6 w-full">
+            <!-- Survivor Tier 5 icons will be generated here -->
+          </div>
+        </section>
+      </div>
+
+      <!-- Footer -->
+      <footer class="text-center mt-8 py-6 text-neutral-400 text-sm">
+        Developed by <a href="https://x.com/ruben4545" class="text-red-600 hover:text-red-500 font-semibold transition-colors">Thehail</a> &copy; 2025
+      </footer>
+    </div>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
