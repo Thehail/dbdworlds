@@ -1,0 +1,210 @@
+{
+    "ruleset_description": {
+        "killer": "Tier 2 Killer Ruleset: A more competitive environment that demands advanced strategies and precise execution.",
+        "survivor": "Tier 2 Survivor Ruleset: Enhanced challenges require more sophisticated teamwork and individual skill."
+    },
+    "killer_specific": {
+        "The Spirit": {
+            "available_maps": [
+                "Father Campbell's Chapel",
+                "Mount Ormond Resort",
+                "Yamaoka Estate"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Sloppy Butcher",
+                "Spirit Fury"
+            ],
+            "banned_combos": [
+                "Spirit + Thanatophobia",
+                "Spirit + Corrupt Intervention"
+            ],
+            "banned_addons": [
+                "Mother's Glasses",
+                "Prayer Beads",
+                "Wakizashi Shard"
+            ]
+        },
+        "The Mastermind": {
+            "available_maps": [
+                "Raccoon City Police Station",
+                "Treatment Theatre",
+                "Midwich Elementary School"
+            ],
+            "banned_perks": [
+                "Discordance",
+                "Surveillance",
+                "Hex: Ruin"
+            ],
+            "banned_combos": [
+                "Mastermind + Infectious Fright",
+                "Mastermind + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Experimental Serum",
+                "Broken Syringe",
+                "Prototype Sample"
+            ]
+        },
+        "The Singularity": {
+            "available_maps": [
+                "Underground Complex",
+                "Treatment Theatre",
+                "Midwich Elementary School"
+            ],
+            "banned_perks": [
+                "Lethal Pursuer",
+                "Hex: Undying",
+                "Corrupt Intervention"
+            ],
+            "banned_combos": [
+                "Singularity + Infectious Fright",
+                "Singularity + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Quantum Calibrator",
+                "Temporal Regulator",
+                "Dimensional Resonator"
+            ]
+        },
+        "The Unknown": {
+            "available_maps": [
+                "Sanctum of Wrath",
+                "The Game",
+                "Underground Complex"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Lethal Pursuer",
+                "Corrupt Intervention"
+            ],
+            "banned_combos": [
+                "Unknown + Infectious Fright",
+                "Unknown + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Cosmic Resonator",
+                "Void Fragment",
+                "Ethereal Essence"
+            ]
+        },
+        "The Oni": {
+            "available_maps": [
+                "Yamaoka Estate",
+                "Mount Ormond Resort",
+                "Father Campbell's Chapel"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Sloppy Butcher",
+                "Corrupt Intervention"
+            ],
+            "banned_combos": [
+                "Oni + Infectious Fright",
+                "Oni + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Rotten Remains",
+                "Oni Prayer Beads",
+                "Yamaoka Blade Fragment"
+            ]
+        },
+        "The Twins": {
+            "available_maps": [
+                "Coldwind Farm",
+                "MacMillan Estate",
+                "Autohaven Wreckers"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Twins + Infectious Fright",
+                "Twins + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Toy Sword",
+                "Cracked Turtle Shell",
+                "Stained Cloth"
+            ]
+        },
+        "The Dark Lord": {
+            "available_maps": [
+                "The Game",
+                "Sanctum of Wrath",
+                "Underground Complex"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Lethal Pursuer",
+                "Corrupt Intervention"
+            ],
+            "banned_combos": [
+                "Dark Lord + Infectious Fright",
+                "Dark Lord + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Corrupted Sigil",
+                "Infernal Relic",
+                "Dark Essence"
+            ]
+        },
+        "The Nightmare": {
+            "available_maps": [
+                "Badham Preschool",
+                "Midwich Elementary School",
+                "Treatment Theatre"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Nightmare + Infectious Fright",
+                "Nightmare + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Basement Basement Boiler",
+                "Burned Adrenal Gland",
+                "Cracked Lens"
+            ]
+        }
+    },
+    "banned_perks": {
+        "killer": [
+            "Pop Goes the Weasel",
+            "Barbecue & Chilli",
+            "Discordance"
+        ],
+        "survivor": [
+            "Iron Will",
+            "Prove Thyself",
+            "We'll Make It"
+        ]
+    },
+    "banned_combos": {
+        "killer": [
+            "Hillbilly + Infectious Fright",
+            "Blight + Lethal Pursuer"
+        ],
+        "survivor": [
+            "Adrenaline + Sprint Burst",
+            "Lithe + Windows of Opportunity"
+        ]
+    },
+    "banned_addons": {
+        "killer": [
+            "Infantry Belt",
+            "Ebony Memento Mori",
+            "Windstorm"
+        ],
+        "survivor": [
+            "Ranger Medkit",
+            "Styptic Agent",
+            "Phoenix Feather"
+        ]
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "ruleset_description": {
+        "killer": "Tier 1 Killer Ruleset: A challenging environment where skilled killers test their abilities against resourceful survivors.",
+        "survivor": "Tier 1 Survivor Ruleset: Survival requires teamwork, stealth, and strategic thinking to overcome the most dangerous killers."
+    },
+    "killer_specific": {
+        "The Nurse": {
+            "available_maps": [
+                "Coal Tower I",
+                "The Temple of Purgation",
+                "Groaning Storehouse II"
+            ],
+            "banned_perks": [
+                "Thanatophobia",
+                "Hex: Ruin",
+                "Overcharge"
+            ],
+            "banned_combos": [
+                "Nurse + Sloppy Butcher",
+                "Nurse + Corrupt Intervention"
+            ],
+            "banned_addons": [
+                "Blight Serum",
+                "Blighted Serum",
+                "Fragrant Mushroom"
+            ]
+        },
+        "The Blight": {
+            "available_maps": [
+                "Suffocation Pit I",
+                "Blood Lodge",
+                "Mount Ormond Resort I"
+            ],
+            "banned_perks": [
+                "Hex: Undying",
+                "Lethal Pursuer",
+                "Hex: Ruin"
+            ],
+            "banned_combos": [
+                "Blight + Infectious Fright",
+                "Blight + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Compound Thirty-Four",
+                "Blighted Rat",
+                "Blighted Crow"
+            ]
+        },
+        "The Hillbilly": {
+            "available_maps": [
+                "Blood Lodge",
+                "The Thompson House",
+                "Groaning Storehouse II"
+            ],
+            "banned_perks": [
+                "Enduring",
+                "Lightborn",
+                "Tinkerer"
+            ],
+            "banned_combos": [
+                "Hillbilly + Infectious Fright",
+                "Hillbilly + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Iridescent Brick",
+                "Primer Bulb",
+                "Speed Limiter"
+            ]
+        }
+    }
+}

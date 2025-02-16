@@ -1,0 +1,357 @@
+{
+    "ruleset_description": {
+        "killer": "Tier 3 Killer Ruleset: The ultimate test of killer prowess, where only the most strategic and skilled players can succeed.",
+        "survivor": "Tier 3 Survivor Ruleset: A high-stakes environment that demands near-perfect coordination and individual excellence."
+    },
+    "killer_specific": {
+        "The Xenomorph": {
+            "available_maps": [
+                "Hadley's Hope",
+                "Weyland Facility",
+                "Derelict Spaceship"
+            ],
+            "banned_perks": [
+                "Lethal Pursuer",
+                "Hex: Ruin",
+                "Corrupt Intervention"
+            ],
+            "banned_combos": [
+                "Xenomorph + Infectious Fright",
+                "Xenomorph + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Alien Egg Sac",
+                "Biomechanical Carapace",
+                "Queen's Royal Jelly"
+            ]
+        },
+        "The Huntress": {
+            "available_maps": [
+                "Mother's Cabin",
+                "Coldwind Farm",
+                "MacMillan Estate"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Huntress + Infectious Fright",
+                "Huntress + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Infantry Belt",
+                "Soldier's Puttees",
+                "Wooden Cigar Plank"
+            ]
+        },
+        "The Deathslinger": {
+            "available_maps": [
+                "Grave of Glenvale",
+                "Treatment Theatre",
+                "Ormond Resort"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Deathslinger + Infectious Fright",
+                "Deathslinger + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Chewed Pen",
+                "Warden's Keys",
+                "Rusted Spike"
+            ]
+        },
+        "The Demogorgon": {
+            "available_maps": [
+                "Underground Complex",
+                "Hawkins National Laboratory",
+                "Treatment Theatre"
+            ],
+            "banned_perks": [
+                "Lethal Pursuer",
+                "Hex: Ruin",
+                "Corrupt Intervention"
+            ],
+            "banned_combos": [
+                "Demogorgon + Infectious Fright",
+                "Demogorgon + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Upside Down Slug",
+                "Visceral Membrane",
+                "Tendril Membrane"
+            ]
+        },
+        "The Artist": {
+            "available_maps": [
+                "Raccoon City Police Station",
+                "The Game",
+                "Sanctum of Wrath"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Artist + Infectious Fright",
+                "Artist + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Ink Stained Brush",
+                "Raven Feather",
+                "Blank Canvas"
+            ]
+        },
+        "The Clown": {
+            "available_maps": [
+                "Autohaven Wreckers",
+                "Coldwind Farm",
+                "MacMillan Estate"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Clown + Infectious Fright",
+                "Clown + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Thick Tar Bottle",
+                "Cheap Coarse Bottle",
+                "Ether Bottle"
+            ]
+        },
+        "The Trickster": {
+            "available_maps": [
+                "Abandoned Garage",
+                "Treatment Theatre",
+                "Midwich Elementary School"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Trickster + Infectious Fright",
+                "Trickster + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Iridescent Photocard",
+                "Bloody Wig",
+                "Broken Tape Recorder"
+            ]
+        },
+        "The Knight": {
+            "available_maps": [
+                "Coldwind Farm",
+                "MacMillan Estate",
+                "Autohaven Wreckers"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Knight + Infectious Fright",
+                "Knight + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Rusty Sword Hilt",
+                "Cracked Shield",
+                "Tarnished Heraldry"
+            ]
+        },
+        "The Plague": {
+            "available_maps": [
+                "Father Campbell's Chapel",
+                "Yamaoka Estate",
+                "Mount Ormond Resort"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Plague + Infectious Fright",
+                "Plague + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Contaminated Syringe",
+                "Vile Purge Bottle",
+                "Broken Tablet"
+            ]
+        },
+        "The Executioner": {
+            "available_maps": [
+                "Midwich Elementary School",
+                "Treatment Theatre",
+                "Raccoon City Police Station"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Executioner + Infectious Fright",
+                "Executioner + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Pyramid Head's Sword",
+                "Rusted Spike",
+                "Barbed Wire"
+            ]
+        },
+        "The Dredge": {
+            "available_maps": [
+                "Underground Complex",
+                "The Game",
+                "Sanctum of Wrath"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Dredge + Infectious Fright",
+                "Dredge + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Darkness Revealed",
+                "Primordial Darkness",
+                "Void Essence"
+            ]
+        },
+        "The Cenobite": {
+            "available_maps": [
+                "Sanctum of Wrath",
+                "The Game",
+                "Underground Complex"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Cenobite + Infectious Fright",
+                "Cenobite + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Lament Configuration",
+                "Hooked Chain",
+                "Flesh Piercing Hook"
+            ]
+        },
+        "The Nemesis": {
+            "available_maps": [
+                "Raccoon City Police Station",
+                "Treatment Theatre",
+                "Midwich Elementary School"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Nemesis + Infectious Fright",
+                "Nemesis + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "T-Virus Sample",
+                "Mutated Strain",
+                "Zombie Arm"
+            ]
+        },
+        "The Good Guy": {
+            "available_maps": [
+                "Suburban Home",
+                "Toy Factory",
+                "Abandoned Playground"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Good Guy + Infectious Fright",
+                "Good Guy + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Burnt Doll",
+                "Voodoo Charm",
+                "Possessed Battery"
+            ]
+        },
+        "The Houndmaster": {
+            "available_maps": [
+                "Coldwind Farm",
+                "MacMillan Estate",
+                "Autohaven Wreckers"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Houndmaster + Infectious Fright",
+                "Houndmaster + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Rusty Hunting Collar",
+                "Bloodhound Whistle",
+                "Tattered Leash"
+            ]
+        }
+    },
+    "banned_perks": {
+        "killer": [
+            "Nurse's Calling",
+            "Corrupt Intervention",
+            "Lethal Pursuer"
+        ],
+        "survivor": [
+            "Dead Hard",
+            "Borrowed Time",
+            "Decisive Strike"
+        ]
+    },
+    "banned_combos": {
+        "killer": [
+            "Nurse + Thanatophobia",
+            "Spirit + Sloppy Butcher"
+        ],
+        "survivor": [
+            "Borrowed Time + Unbreakable",
+            "Dead Hard + Decisive Strike"
+        ]
+    },
+    "banned_addons": {
+        "killer": [
+            "Iridescent Add-ons",
+            "Tombstone Piece",
+            "Monstrous Shrine"
+        ],
+        "survivor": [
+            "Commodious Toolbox",
+            "Pruning Shears",
+            "Branded Flashlight"
+        ]
+    }
+}

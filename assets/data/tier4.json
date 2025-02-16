@@ -1,0 +1,252 @@
+{
+    "ruleset_description": {
+        "killer": "Tier 4 Killer Ruleset: A challenging environment that tests advanced killer strategies and adaptability.",
+        "survivor": "Tier 4 Survivor Ruleset: Intense gameplay requiring sophisticated teamwork and individual resilience."
+    },
+    "killer_specific": {
+        "The Trapper": {
+            "available_maps": [
+                "MacMillan Estate",
+                "Coldwind Farm",
+                "Autohaven Wreckers"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Trapper + Infectious Fright",
+                "Trapper + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Rusted Jaws",
+                "Copper Wire",
+                "Serrated Jaws"
+            ]
+        },
+        "The Nurse": {
+            "available_maps": [
+                "Father Campbell's Chapel",
+                "Mount Ormond Resort",
+                "Treatment Theatre"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Nurse + Thanatophobia",
+                "Nurse + Sloppy Butcher"
+            ],
+            "banned_addons": [
+                "Plaid Flannel",
+                "Pocket Watch",
+                "Fragile Wheeze"
+            ]
+        },
+        "The Doctor": {
+            "available_maps": [
+                "Treatment Theatre",
+                "Midwich Elementary School",
+                "Raccoon City Police Station"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Doctor + Infectious Fright",
+                "Doctor + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Calm Treatment",
+                "Iridescent King",
+                "Restraint Straps"
+            ]
+        },
+        "The Wraith": {
+            "available_maps": [
+                "Autohaven Wreckers",
+                "Treatment Theatre",
+                "Lerys Memorial Institute"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Wraith + Infectious Fright",
+                "Wraith + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Windstorm",
+                "Coxed Bell",
+                "Bone Clapper"
+            ]
+        },
+        "The Hag": {
+            "available_maps": [
+                "Backwater Swamp",
+                "Father Campbell's Chapel",
+                "Yamaoka Estate"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Hag + Infectious Fright",
+                "Hag + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Dried Cicada",
+                "Willow Wreath",
+                "Mint Rag"
+            ]
+        },
+        "The Pig": {
+            "available_maps": [
+                "Gideon Meat Processing Plant",
+                "Treatment Theatre",
+                "Midwich Elementary School"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Pig + Infectious Fright",
+                "Pig + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Jigsaw's Sketch",
+                "Rusty Attachments",
+                "Tampered Timer"
+            ]
+        },
+        "The Legion": {
+            "available_maps": [
+                "Autohaven Wreckers",
+                "Coldwind Farm",
+                "MacMillan Estate"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Legion + Infectious Fright",
+                "Legion + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Mural Sketch",
+                "Stab Wounds Study",
+                "Feral Claws"
+            ]
+        },
+        "The Shape": {
+            "available_maps": [
+                "Haddonfield",
+                "Treatment Theatre",
+                "Lerys Memorial Institute"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Shape + Infectious Fright",
+                "Shape + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Long Service Pin",
+                "Jewel of Judgment",
+                "Boyfriend's Memo"
+            ]
+        },
+        "The Cannibal": {
+            "available_maps": [
+                "MacMillan Estate",
+                "Coldwind Farm",
+                "Autohaven Wreckers"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Cannibal + Infectious Fright",
+                "Cannibal + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Chili Pepper",
+                "Rusty Hammer",
+                "Wooden Spoon"
+            ]
+        },
+        "The Ghostface": {
+            "available_maps": [
+                "Haddonfield",
+                "Treatment Theatre",
+                "Lerys Memorial Institute"
+            ],
+            "banned_perks": [
+                "Hex: Ruin",
+                "Corrupt Intervention",
+                "Lethal Pursuer"
+            ],
+            "banned_combos": [
+                "Ghostface + Infectious Fright",
+                "Ghostface + Barbecue & Chilli"
+            ],
+            "banned_addons": [
+                "Marked Hunt Map",
+                "Broken Knife",
+                "Photographic Memory"
+            ]
+        }
+    },
+    "banned_perks": {
+        "killer": [
+            "Pop Goes the Weasel",
+            "Corrupt Intervention",
+            "Lethal Pursuer"
+        ],
+        "survivor": [
+            "Dead Hard",
+            "Borrowed Time",
+            "Decisive Strike"
+        ]
+    },
+    "banned_combos": {
+        "killer": [
+            "Nurse + Thanatophobia",
+            "Spirit + Sloppy Butcher"
+        ],
+        "survivor": [
+            "Borrowed Time + Unbreakable",
+            "Dead Hard + Decisive Strike"
+        ]
+    },
+    "banned_addons": {
+        "killer": [
+            "Iridescent Add-ons",
+            "Tombstone Piece",
+            "Monstrous Shrine"
+        ],
+        "survivor": [
+            "Commodious Toolbox",
+            "Pruning Shears",
+            "Branded Flashlight"
+        ]
+    }
+}
